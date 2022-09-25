@@ -2,5 +2,5 @@ package web
 
 type CategoryResponse struct {
 	Id   int
-	Name string
+	Name string `json:"name"`
 }
